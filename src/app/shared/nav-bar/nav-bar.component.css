@@ -1,0 +1,11 @@
+.navbar {
+    @apply fixed top-0 w-full z-50
+           bg-white text-gray-900
+           dark:bg-gray-900 dark:text-gray-100
+           shadow;
+  }
+
+  .nav-link {
+    @apply hover:text-indigo-600 dark:hover:text-indigo-400 transition;
+  }
+  

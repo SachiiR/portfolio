@@ -1,0 +1,15 @@
+.round-button-gray-md {
+    @apply px-3 py-1.5 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 text-xs font-medium rounded-md;
+  }
+
+  .round-button-gray-lg {
+    @apply px-4 py-2 bg-indigo-50/50 dark:bg-indigo-900/10 text-gray-700 dark:text-gray-300 text-sm font-medium rounded-lg border border-indigo-100 dark:border-indigo-900/30;
+  }
+
+  .indigo-uppercase-text{
+    @apply text-sm font-bold uppercase tracking-widest text-indigo-600 dark:text-indigo-400 mb-4;
+  }
+
+  .gray-2xl-text{
+    @apply text-2xl font-bold tracking-tight text-gray-900 dark:text-white border-b-2 border-indigo-500 pb-2 inline-block lg:block lg:border-b-0;
+  }
